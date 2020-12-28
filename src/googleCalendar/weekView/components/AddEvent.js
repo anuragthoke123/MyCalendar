@@ -10,7 +10,7 @@ function AddEvent (props) {
     <React.Fragment>
       <Input
         type="text"
-        placeholder="Add Title"
+        placeholder="Add Event Name"
         value={props.title}
         style={inputStyles}
         size="large"
@@ -23,7 +23,7 @@ function AddEvent (props) {
         onChange={props.onTimeChange}
         showTime={{
           format: 'HH:mm',
-          hourStep: 1,
+          hourStep: 3,
           minuteStep: 30,
           defaultValue: [moment (props.start), moment (props.end)],
         }}

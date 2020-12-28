@@ -1,8 +1,9 @@
 import React from 'react';
-import GoogleCalendar from './googleCalendar';
+import MyCalendar from './googleCalendar';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App (props) {
-  return <GoogleCalendar />;
+  return <MyCalendar />;
 }
 
 export default App;

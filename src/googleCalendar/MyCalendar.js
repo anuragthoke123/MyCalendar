@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import WeekView from './weekView';
 import CalendarEventHandler from './calendarEventHandler';
 
-class GoogleCalendar extends Component {
+class MyCalendar extends Component {
   constructor (props) {
     super (props);
 
@@ -82,4 +82,4 @@ class GoogleCalendar extends Component {
   }
 }
 
-export default GoogleCalendar;
+export default MyCalendar;
