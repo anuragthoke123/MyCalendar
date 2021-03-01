@@ -1,6 +1,6 @@
-# React Google Calendar Clone
+# React Calendar
 
-A react demo of google calendar
+A react calendar
 
 ## Watch it being used live
 
@@ -9,7 +9,7 @@ A react demo of google calendar
 ## Running the Demo
 
 1.  Clone the repo
-2.  `cd react-google-calendar-clone`
+2.  `cd MyCalendar`
 3.  `yarn start`
 4.  Change tabs to the browser
 
